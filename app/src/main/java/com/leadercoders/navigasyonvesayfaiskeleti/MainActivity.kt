@@ -15,6 +15,7 @@ import com.leadercoders.navigasyonvesayfaiskeleti.ders1.D413_NavControllerVeNavH
 import com.leadercoders.navigasyonvesayfaiskeleti.ders1.D415_TemelNavigasyonApp
 import com.leadercoders.navigasyonvesayfaiskeleti.ders1.HikayeUygulamasi
 import com.leadercoders.navigasyonvesayfaiskeleti.ders2.D422_SayfalarArasiVeriTasima
+import com.leadercoders.navigasyonvesayfaiskeleti.ders2.D424_VeriGondermeApp
 import com.leadercoders.navigasyonvesayfaiskeleti.ui.theme.GR01_MYM_M4_NavigasyonVeSayfaIskeletiTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +30,8 @@ class MainActivity : ComponentActivity() {
                     //D413_NavControllerVeNavHost(modifier = Modifier.padding(innerPadding))
                     //D415_TemelNavigasyonApp(modifier = Modifier.padding(innerPadding))
                     //HikayeUygulamasi(modifier = Modifier.padding(innerPadding))
-                    D422_SayfalarArasiVeriTasima(modifier = Modifier.padding(innerPadding))
+                    //D422_SayfalarArasiVeriTasima(modifier = Modifier.padding(innerPadding))
+                    D424_VeriGondermeApp(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
